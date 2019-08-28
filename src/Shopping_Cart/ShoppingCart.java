@@ -1,21 +1,22 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * To change this template file, choose Settings | Editor | File and Code Templates
+ * and change the template in the editor.
  */
+
 package Shopping_Cart;
 
 import static Shopping_Cart.Carts.*;
 
 /**
- * @author AHMED ABUWARDA
+ * @author AHMED ABUWARDA.
  */
 public class ShoppingCart {
 
     /**
-     * @param args
+     * @param args the command line here.
      */
     public static void main(String[] args) {
+        // TODO code application logic here.
 
         getProducts().add(new Products(0, "imac", "computer", 700, 16));
         getProducts().add(new Products(1, "iphone", "mopile", 620, 11));

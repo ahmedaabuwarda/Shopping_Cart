@@ -1,15 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * To change this template file, choose Settings | Editor | File and Code Templates
+ * and change the template in the editor.
  */
+
 package Shopping_Cart;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- * @author AHMED ABUWARDA
+ * @author AHMED ABUWARDA.
  */
 public class Carts extends Products {
 
