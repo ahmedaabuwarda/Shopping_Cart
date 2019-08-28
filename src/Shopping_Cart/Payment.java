@@ -10,51 +10,53 @@ package Shopping_Cart;
  */
 public abstract class Payment {
 
+    // Data fields.
     private String cardNumber;
     private String expDate;
     private int ccv;
 
+    // Abstract method.
     public abstract void paymentMethod();
 
     /**
-     * @return the cardNumber
+     * @return The cardNumber.
      */
     public String getCardNumber() {
         return cardNumber;
     }
 
     /**
-     * @param cardNumber the cardNumber to set
+     * @param cardNumber The cardNumber to set.
      */
-    public void setCardNumber(String cardNumber) {
+    protected void setCardNumber(String cardNumber) {
         this.cardNumber = cardNumber;
     }
 
     /**
-     * @return the expDate
+     * @return The expDate.
      */
     public String getExpDate() {
         return expDate;
     }
 
     /**
-     * @param expDate the expDate to set
+     * @param expDate The expDate to set.
      */
-    public void setExpDate(String expDate) {
+    protected void setExpDate(String expDate) {
         this.expDate = expDate;
     }
 
     /**
-     * @return the ccv
+     * @return The ccv.
      */
     public int getCcv() {
         return ccv;
     }
 
     /**
-     * @param ccv the ccv to set
+     * @param ccv The ccv to set.
      */
-    public void setCcv(int ccv) {
+    protected void setCcv(int ccv) {
         this.ccv = ccv;
     }
 

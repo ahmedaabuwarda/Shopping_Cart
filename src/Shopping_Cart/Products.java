@@ -10,101 +10,104 @@ package Shopping_Cart;
  */
 public class Products {
 
+    // Data fields.
     private int ID;
     private String name;
     private String description;
     private int price;
     private int quantity;
 
-    /**
-     * no-arguments Constructor
-     */
+    // no-arguments Constructor.
     public Products() {
+
         this(0, "Unknown", "Unknown", 0, 0);
+
     }
 
     /**
-     * @param ID
-     * @param name
-     * @param description
-     * @param price
-     * @param quantity
+     * @param ID          Any int number.
+     * @param name        Any String.
+     * @param description Any String.
+     * @param price       Any int number.
+     * @param quantity    Any int number.
      */
     public Products(int ID, String name, String description, int price, int quantity) {
+
         setID(ID);                    // this.ID = ID;
         setName(name);                // this.name = name;
         setDescription(description);  // this.description = description;
         setPrice(price);              // this.price = price;
         setQuantity(quantity);        // this.quantity = quantity;
+
     }
 
     /**
-     * @return ID
+     * @return ID.
      */
-    public int getID() {
+    int getID() {
         return ID;
     }
 
     /**
-     * @param ID
+     * @param ID The ID to set.
      */
-    public void setID(int ID) {
+    private void setID(int ID) {
         this.ID = ID;
     }
 
     /**
-     * @return Name
+     * @return Name.
      */
-    public String getName() {
+    String getName() {
         return name;
     }
 
     /**
-     * @param name
+     * @param name Set name.
      */
-    public void setName(String name) {
+    private void setName(String name) {
         this.name = name;
     }
 
     /**
-     * @return Description
+     * @return The description.
      */
-    public String getDescription() {
+    String getDescription() {
         return description;
     }
 
     /**
-     * @param description
+     * @param description Set description.
      */
-    public void setDescription(String description) {
+    private void setDescription(String description) {
         this.description = description;
     }
 
     /**
-     * @return Price
+     * @return The price.
      */
-    public int getPrice() {
+    int getPrice() {
         return price;
     }
 
     /**
-     * @param price
+     * @param price Set the price.
      */
-    public void setPrice(int price) {
+    private void setPrice(int price) {
         this.price = price;
     }
 
     /**
-     * @return Quantity
+     * @return The quantity.
      */
-    public int getQuantity() {
+    int getQuantity() {
         return quantity;
     }
 
     /**
-     * @param quantity
+     * @param quantity Set Quantity.
      */
-    public void setQuantity(int quantity) {
+    private void setQuantity(int quantity) {
         this.quantity = quantity;
     }
 
