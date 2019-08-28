@@ -1,0 +1,5 @@
+1    hp         600     13      labtob
+2    iphone     590     9       phone
+3    forex      12      8       mouse
+4    forev      10      6       keyboard
+5    ports      4       2       usb ports
